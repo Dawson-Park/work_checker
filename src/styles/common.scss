@@ -1,0 +1,12 @@
+%container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+@function transition($target: all) {
+	@return ($target 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms)
+}
